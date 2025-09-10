@@ -168,4 +168,5 @@ elif choice == "3":
             print("JUST LIKE GIRLS WE DON'T HAVE ANY")
 
 else:
-    print("Invalid choice. Please choose a valid genre.")
+
+    print("INVALID MY NUTSSSSSSSSS.")
