@@ -4,7 +4,7 @@ print("2. sixseven")
 print("3. balls")
 meymey = input("Choose your character: ")
 
-# ============ MANGO ============
+
 if meymey == "1":
     print("You selected mango.")
     print("1. genz")
@@ -48,7 +48,6 @@ if meymey == "1":
         else:
             print("yourself")
 
-# ============ SIXSEVEN ============
 elif meymey == "2":
     print("You selected sixseven.")
     print("1. genz")
@@ -92,7 +91,7 @@ elif meymey == "2":
         else:
             print("yourself")
 
-# ============ BALLS ============
+
 elif meymey == "3":
     print("You selected balls.")
     print("1. genz")
