@@ -1,6 +1,6 @@
 n = 6
 
-for uma in range(1, n + 1):              
+for uma in range(1, n , 1):              
     for deez in range(n, uma, -1):       
         print(" ", end=" ")
 
@@ -9,7 +9,7 @@ for uma in range(1, n + 1):
 
     print(1, end=" ")                   
 
-    for z in range(2, uma + 1):         
+    for z in range(2, uma , 1):         
         print(z, end=" ")
 
     print() 
