@@ -1,9 +1,8 @@
-
 print("choose your character")
 print("agnes_tachyon ")
 print("t.m_opera_o")
 print("meisho_doto")
-Uma =input("pick your uma:")
+Uma =input("pick your uma:").lower()
 
 if Uma =="agnes_tachyon":
     agnas= "agnes_tachyon "
@@ -12,7 +11,7 @@ if Uma =="agnes_tachyon":
     print("arima_kinen")
     print("kikuka_sho")
     print("japanese_derby")
-    course =input("enter your race course:")
+    course =input("enter your race course:").lower()
     
     if course =="arima_kinen":
        arima = "arima kinen"
@@ -22,7 +21,7 @@ if Uma =="agnes_tachyon":
        print("front")
        print("end")
        print("late")
-       stye =input("enter your uma style:")
+       stye =input("enter your uma style:").lower()
      
        if stye =="pace":
          print("your chances of winning is 67")
@@ -46,7 +45,7 @@ if Uma =="agnes_tachyon":
        print("front")
        print("end")
        print("late")
-       stye =input("enter your uma style:")
+       stye =input("enter your uma style:").lower()
      
        if stye =="pace":
          print("your chances of winning is 89")
@@ -71,7 +70,7 @@ if Uma =="agnes_tachyon":
        print("front")
        print("end")
        print("late")
-       stye =input("enter your uma style:")
+       stye =input("enter your uma style:").lower()
      
        if stye =="pace":
          print("your chances of winning is 56")
@@ -95,7 +94,7 @@ elif Uma =="t.m_opera_o":
     print("arima_kinen")
     print("kikuka_sho")
     print("japanese_derby")
-    course =input("enter your race course:")
+    course =input("enter your race course:").lower()
     
     if course =="arima_kinen":
        arima = "arima kinen"
@@ -105,7 +104,7 @@ elif Uma =="t.m_opera_o":
        print("front")
        print("end")
        print("late")
-       stye =input("enter your uma style:")
+       stye =input("enter your uma style:").lower()
      
        if stye =="pace":
          print("your chances of winning is 46")
@@ -129,7 +128,7 @@ elif Uma =="t.m_opera_o":
        print("front")
        print("end")
        print("late")
-       stye =input("enter your uma style:")
+       stye =input("enter your uma style:").lower()
      
        if stye =="pace":
          print("your chances of winning is 44")
@@ -154,7 +153,7 @@ elif Uma =="t.m_opera_o":
        print("front")
        print("end")
        print("late")
-       stye =input("enter your uma style:")
+       stye =input("enter your uma style:").lower()
      
        if stye =="pace":
          print("your chances of winning is 47")
@@ -178,7 +177,7 @@ elif Uma =="meisho_doto":
     print("arima_kinen")
     print("kikuka_sho")
     print("japanese_derby")
-    course =input("enter your race course:")
+    course =input("enter your race course:").lower()
     
     if course =="arima_kinen":
        arima = "arima kinen"
@@ -188,7 +187,7 @@ elif Uma =="meisho_doto":
        print("front")
        print("end")
        print("late")
-       stye =input("enter your uma style:")
+       stye =input("enter your uma style:").lower()
      
        if stye =="pace":
          print("your chances of winning is 96")
@@ -212,7 +211,7 @@ elif Uma =="meisho_doto":
        print("front")
        print("end")
        print("late")
-       stye =input("enter your uma style:")
+       stye =input("enter your uma style:").lower()
      
        if stye =="pace":
          print("your chances of winning is 93")
@@ -237,7 +236,7 @@ elif Uma =="meisho_doto":
        print("front")
        print("end")
        print("late")
-       stye =input("enter your uma style:")
+       stye =input("enter your uma style:").lower()
      
        if stye =="pace":
          print("your chances of winning is 95")
@@ -254,6 +253,15 @@ elif Uma =="meisho_doto":
        else:
            print("invalid choice")
     
+
+        
+
+    
+    
+
+    
+    
+
 
         
 
