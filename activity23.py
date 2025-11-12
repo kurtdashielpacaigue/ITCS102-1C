@@ -1,4 +1,4 @@
-from activity23_1 import GreetWithName,FunctionWithReturn,Greetperson
+from activity23_1 import GreetWithName,FunctionWithReturn,Greetperson,Factorial
 
 def Function():
     print("umamusume")
@@ -11,3 +11,4 @@ Greetperson('agnes','kyoto','67')
 
 print(f"i want to get the summation of{FunctionWithReturn(9)}")
 print(f"i want to get the summation of{FunctionWithReturn(11)+25}")
+print(f"i want to get the summation of{Factorial(6)}")
