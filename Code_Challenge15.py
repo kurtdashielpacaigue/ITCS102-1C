@@ -7,10 +7,10 @@ stud_record ={}
 while True:
     print("select from the following options")
     print("A - Adding The Student Record")
-    print("B - Search Student Record")
-    print("C - Edit Student Record")
+    print("B - Print All Record")
+    print("C - Search Student Record")
     print("D - Delete Student Record")
-    print("E - Print All Record")
+    print("E - Edit All Record")
     print("F - Export Data")
     print("G - Exit System")
 
@@ -20,30 +20,93 @@ while True:
         print("add student record")
 
         student_id = input("student id number ")
-        first_name = input("input student first name").upper
-        last_name = input("input student last name").upper
-        course = input("input student course").upper
-        section = input("input student section").upper
-        email = input ("input email").upper
+        first_name = input("input student first name").upper()
+        last_name = input("input student last name").upper()
+        course = input("input student course").upper()
+        section = input("input student section").upper()
+        email = input ("input email").upper()
 
         stud_record[student_id] = [first_name,last_name,course,section,email]
         print("Data saved succesfully")
         os.system('cls')
         continue
     elif choice == 'b':
-        pass
+        os.system('cls')
+        print("PRINTING STUDENT RECORDS")
+        print("================================")
+
+        for id,info in stud_record.items():
+            print(f"STUDENT{id} = RECORD = {info}")
         continue
     elif choice == 'c':
-        pass
+        os.system('cls')
+        print("SEARCH STUDENT RECORD")
+        search_id = input("INPUT STUDENT ---->").lower()
+
+        for each_student in stud_record.keys():
+            if search_id in stud_record.keys():
+                print(f"\n\nRECORD FOUND{search_id}")
+                print("==========")
+                for id in stud_record[search_id]:
+                    print(f"---{id}")
+                print("=================")
+
+            else:
+                print("NO RECORD FOUND")
+            break
         continue
     elif choice == 'd':
-        pass
+        os.system('cls')
+        print("DELETE RECORD")
+
+        search_id = input("INPUT STUDENT ---->").lower()
+
+        for each_student in stud_record.keys():
+            if search_id in stud_record.keys():
+                print(f"\n\nRECORD FOUND{search_id}")
+                print("==========")
+                for id in stud_record[search_id]:
+                    print(f"---{id}")
+                print("=================")
+
+                stud_record.pop(search_id)
+                print("RECORD DELETED")
+            else:
+                print("NO RECORD FOUND")
+            break
         continue
     elif choice == 'e':
-        pass
+        os.system('cls')
+        print("SEARCH STUDENT RECORD")
+        search_id = input("INPUT STUDENT ---->").lower()
+
+        for each_student in stud_record.keys():
+            if search_id in stud_record.keys():
+                print(f"\n\nRECORD FOUND{search_id}")
+                print("==========")
+                for id in stud_record[search_id]:
+                    print(f"---{id}")
+                print("=================")
+                first_name = input("input student first name").upper()
+                last_name = input("input student last name").upper()
+                course = input("input student course").upper()
+                section = input("input student section").upper()
+                email = input ("input email").upper()
+
+                stud_record[search_id][0]= first_name
+                stud_record[search_id][1]= last_name
+                stud_record[search_id][2]= course
+                stud_record[search_id][3]= section
+                stud_record[search_id][4]= email
+                ("Data Printed Succefully")
+
+
+            else:
+                print("NO RECORD FOUND")
+            break
         continue
     elif choice == 'f':
-        pass
+        print("export data")
         continue
     elif choice == 'g':
         pass
