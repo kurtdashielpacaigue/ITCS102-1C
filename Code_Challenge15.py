@@ -1,5 +1,5 @@
 import os
-
+import json
 os.system('cls')
 print('DLL STUDENT INFORMATION SYSTEM')
 print('+++++++++++++++++')
@@ -106,10 +106,15 @@ while True:
             break
         continue
     elif choice == 'f':
-        print("export data")
+        print("EXPORT DATA")
+        with open('student_record.json','w') as new_file:
+            json.dump(stud_record,new_file,indent=4)
+
+        print("DATA EXPORTED SUCCESFULY")
         continue
+
     elif choice == 'g':
-        pass
+        print("System Exit")
         continue
     else:
         print("Invalid Choice, Re-enter code")
