@@ -1,8 +1,6 @@
 import os
 
-# -----------------------------
-# A - PRINT FUNCTION
-# -----------------------------
+
 def print_info():
     print("\n--- INFORMATION ABOUT PRINT FUNCTION ---")
     print("The print() function displays text on the screen.")
@@ -13,9 +11,7 @@ def print_run():
     print("Hello! This is the print() function running.")
 
 
-# -----------------------------
-# B - INPUT FUNCTION
-# -----------------------------
+
 def input_info():
     print("\n--- INFORMATION ABOUT INPUT FUNCTION ---")
     print("The input() function lets the user type values.")
@@ -27,9 +23,7 @@ def input_run():
     print("Hello,", name)
 
 
-# -----------------------------
-# C - IF/ELSE FUNCTION
-# -----------------------------
+
 def ifelse_info():
     print("\n--- INFORMATION ABOUT IF/ELSE ---")
     print("If/Else is used for decision making.")
@@ -44,9 +38,7 @@ def ifelse_run():
         print("The number is small.")
 
 
-# -----------------------------
-# D - LOOP FUNCTION
-# -----------------------------
+
 def loop_info():
     print("\n--- INFORMATION ABOUT LOOPS ---")
     print("Loops repeat code many times.")
@@ -58,9 +50,7 @@ def loop_run():
         print("Loop:", i)
 
 
-# -----------------------------
-# SUB-MENU HANDLER
-# -----------------------------
+
 def submenu(info_func, run_func, title):
     print(f"\nYou selected: {title}")
     print("1 - Information about this code")
@@ -78,9 +68,7 @@ def submenu(info_func, run_func, title):
     input("\nPress Enter to continue...")
 
 
-# -----------------------------
-# MAIN PROGRAM LOOP
-# -----------------------------
+
 while True:
     os.system('cls' if os.name == 'nt' else 'clear')
 
