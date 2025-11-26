@@ -1,8 +1,6 @@
 import os
 
-# -----------------------------
-# A - PRINT FUNCTION
-# -----------------------------
+
 def print_info():
     print("\n--- INFORMATION ABOUT PRINT FUNCTION ---")
     print("The print() function displays text on the screen.")
@@ -13,9 +11,6 @@ def print_run():
     print("Hello! This is the print() function running.")
 
 
-# -----------------------------
-# B - INPUT FUNCTION
-# -----------------------------
 def input_info():
     print("\n--- INFORMATION ABOUT INPUT FUNCTION ---")
     print("The input() function lets the user type values.")
@@ -27,9 +22,7 @@ def input_run():
     print("Hello,", name)
 
 
-# -----------------------------
-# C - IF/ELSE FUNCTION
-# -----------------------------
+
 def ifelse_info():
     print("\n--- INFORMATION ABOUT IF/ELSE ---")
     print("If/Else is used for decision making.")
@@ -44,9 +37,7 @@ def ifelse_run():
         print("The number is small.")
 
 
-# -----------------------------
-# D - LOOP FUNCTION
-# -----------------------------
+
 def loop_info():
     print("\n--- INFORMATION ABOUT LOOPS ---")
     print("Loops repeat code many times.")
@@ -58,9 +49,6 @@ def loop_run():
         print("Loop:", i)
 
 
-# -----------------------------
-# E - EVAL + INPUT
-# -----------------------------
 def eval_info():
     print("\n--- INFORMATION ABOUT eval(input()) ---")
     print("eval(input()) evaluates what the user types as Python code.")
@@ -77,9 +65,7 @@ def eval_run():
         print("Error:", e)
 
 
-# -----------------------------
-# F - int + input
-# -----------------------------
+
 def intinput_info():
     print("\n--- INFORMATION ABOUT int(input()) ---")
     print("int(input()) converts what the user types into an integer.")
@@ -95,9 +81,7 @@ def intinput_run():
         print("That is not a valid integer.")
 
 
-# -----------------------------
-# SUB-MENU HANDLER
-# -----------------------------
+
 def submenu(info_func, run_func, title):
     print(f"\nYou selected: {title}")
     print("1 - Information about this code")
