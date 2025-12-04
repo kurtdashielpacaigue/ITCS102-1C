@@ -4,6 +4,7 @@ import os
 
 
 def Printinfo():
+    os.system('cls')
     print("n\The Print Allows us to show things on screen Whether it be a Variable or Function")
     print("n\----> print() <----- = print('DU DU DU DU MAX VERSTAPPEN') =")
     print("\n--- INFORMATION ABOUT PRINT FUNCTION ---")
@@ -13,6 +14,7 @@ def Printinfo():
 
     
 def PrintRun():
+    os.system('cls')
     print("---This is The Print Function---")
     print("Hello! Im Max Verstappen and im the print() function running")
     print("EXAMPLE")
@@ -37,6 +39,7 @@ def choice(PrintRun,Printinfo):
     
 
 def input_info():
+    os.system('cls')
     print("INFORMATION ABOUT INPUT FUNCTION")
     print("The input() Function allows us to enter words and numbers")
     print("The input() function lets the user type values.")
@@ -49,6 +52,7 @@ def input_info():
     input("Press any key to go back")
 
 def input_run():
+    os.system('cls')
     print("\n--- RUNNING INPUT FUNCTION EXAMPLE ---")
     name = input("Enter your name: ")
     print("Hello,", name)
@@ -77,6 +81,7 @@ def choice2(input_info,input_run):
     
 
 def eval_info():
+    os.system('cls')
     print("\n--- INFORMATION ABOUT THE ---> eval(input()) ---")
     print("eval(input()) evaluates what the user types as Python code .")
     print("Useful for math expressions like: 5 * (3 + 2)")
@@ -105,6 +110,7 @@ def eval_info():
     input("Press any key to go back")
 
 def eval_run():
+    os.system('cls')
     n1= eval(input("enter the first number:"))
     n2= eval (input("enter the second number:"))
     s = n1+n2
@@ -135,6 +141,7 @@ def choice3(eval_run,eval_info):
         eval_run()
 
 def int_run():
+    os.system('cls')
     print("\n --- INT+INPUT EXAMPLE RUN ---")
 
     n1 =int(input("Enter first whole number:"))
@@ -148,6 +155,7 @@ def int_run():
     input("Press any key to go back")
 
 def int_info():
+    os.system('cls')
     print("\n--- INFORMATION ABOUT THE ---> int(input()) ---")
     print("The int() function converts user input into a whole number (integer).")
     print("Example: age = int(input('Enter age:))")
@@ -189,6 +197,7 @@ def choice4(int_info,int_run):
         ("invalid selection")
     
 def if_info():
+    os.system('cls')
     print("\n--- INFORMATION ABOUT IF / ELIF / ELSE ---")
     print("This function basically allows you to let your program choose.")
     print("IF = checks a condition.")
@@ -238,6 +247,7 @@ def choice5(if_run,if_info):
        
 
 def loop_info():
+    os.system('cls')
     print("\n--- INFORMATION ABOUT LOOPS ---")
     print("Loops repeat actions many times automatically")
     print("A for loop in Python iterates over the items of any sequence, such as a list, tuple, \nor the sequence of numbers produced by range(). The range() function generates these numbers on the fly, " \
@@ -257,8 +267,10 @@ def loop_info():
     print("Prints the current number")
     input("Press any key to go back")
 def loop_run():
-    for code in range(11,1,-1):
+    for code in range(11,0,-1):
      print(code)
+
+     
      
 
 def choice6(loop_run,loop_info):
@@ -277,11 +289,50 @@ def choice6(loop_run,loop_info):
     else:
         ("invalid selection")
     
+def listinfo():
+    print("The List Function allows us to store items in a single variable")
+    print("\n--->list()<--- is used to create a list")
+    print("---INFO ABOUT THIS FUNCTION---")
+    print("A list is basically a ordered collection of elements that can be any data type.\nNumbers,Strings,Booleans and even other lists")
+    print("Example: months = ['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul']")
+    print("\nWe can use various list methods such as:")
+    print("listreverse() to reverse the order of items.")
+    print(" sort() to sort the list in ascending order.")
+    print("Example:")
+    print("months = ['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul']")
+    print("months.reverse() * Reverses the list.")
+    print("months.sort() * Sorts the list alphabetically.")
+    input("\nPress any key to go back")
 
+def listrun():
+     months=['jan','feb','mar','apr','may','jun','jul']
 
+     print(months)
 
-      
+     months.reverse()
+     print(months)
+
+     input("\nPress any key to go back")
     
+
+
+
+
+def choice7(listrun,listinfo):
+    os.system('cls')
+    print("What do you wanna know")
+    print("1 --- INFORMATION ABOUT INFO")
+    print("2 --- RUN THE CODE ")
+    tachyon =input("Enter Your Choice")
+
+    if tachyon == '1':
+        listinfo()
+    
+    elif tachyon == '2':
+        listrun()
+    
+    else:
+        ("invalid selection")
     
 while True:
     os.system
@@ -295,6 +346,7 @@ while True:
     print("D - INT FUNCTION")
     print("E - IF ELSE ELIF FUNCTION")
     print("F - LOOP FUNCTION")
+    print("F - LIST FUNCTION")
     print("G - EXIT SYSTEM")
 
     hutao = input("ENTER YOUR CHOICE TRAVELER:").lower().strip()
@@ -321,7 +373,10 @@ while True:
     elif hutao =='f':
         choice6(loop_run,loop_info)
         continue
-
+    
+    elif hutao =='g':
+        choice7(listrun,listinfo)
+        continue
 
     else:
         ("what are you doing???")
