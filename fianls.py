@@ -497,7 +497,7 @@ def dictionaryrun():
 
     input("\nPress any key to go back...")
 
-def choice9(dictionaryinfo,dictiornaryrun):
+def choice9(dictionaryinfo,dictionaryrun):
     os.system('cls')
     print("What do you wanna know")
     print("1 --- INFORMATION ABOUT INFO")
@@ -508,7 +508,7 @@ def choice9(dictionaryinfo,dictiornaryrun):
         dictionaryinfo()
     
     elif tachyon == '2':
-        dictiornaryrun()
+        dictionaryrun()
     
     else:
         ("invalid selection")    
@@ -639,10 +639,12 @@ while True:
         choice10(functionrun,functioninfo)
         continue
     
-    elif choice == 'h':
-        print("System Exit")
+    elif hutao =='k':
+        print("System Exit. . .")
         break
+    
     else:
         ("what are you doing ??? Try again son")
-        continue
+        ("Press any key...")
+    
         
