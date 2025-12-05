@@ -641,7 +641,7 @@ while True:
     
     elif choice == 'h':
         print("System Exit")
-        continue
+        break
     else:
         ("what are you doing ??? Try again son")
         continue
