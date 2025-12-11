@@ -24,7 +24,7 @@ def PrintRun():
 def choice(Printinfo,PrintRun):
     os.system('cls')
     print("What do you wanna know")
-    print("1 --- INFORMATION ABOUT INFO")
+    print("1 --- INFORMATION ABOUT PRINT")
     print("2 --- RUN THE CODE ")
     tachyon =input("Enter Your Choice")
 
@@ -130,7 +130,7 @@ def eval_run():
 def choice3(eval_run,eval_info):
     os.system('cls')
     print("What do you wanna know")
-    print("1 --- INFORMATION ABOUT INPUT")
+    print("1 --- INFORMATION ABOUT EVAL")
     print("2 --- RUN THE CODE ")
    
     tachyon =input("Enter Your Choice")
@@ -178,7 +178,7 @@ def choice4(int_info,int_run):
 
     os.system('cls')
     print("What do you wanna know")
-    print("1 --- INFORMATION ABOUT INPUT")
+    print("1 --- INFORMATION ABOUT INT")
     print("2 --- RUN THE CODE ")
    
     tachyon =input("Enter Your Choice")
@@ -236,7 +236,7 @@ def if_run():
 def choice5(if_run,if_info):
     os.system('cls')
     print("What do you wanna know")
-    print("1 --- INFORMATION ABOUT INPUT")
+    print("1 --- INFORMATION ABOUT IF, ELSE,ELIF")
     print("2 --- RUN THE CODE ")
    
     tachyon =input("Enter Your Choice")
@@ -289,7 +289,7 @@ def loop_run():
 def choice6(loop_run,loop_info):
     os.system('cls')
     print("What do you wanna know")
-    print("1 --- INFORMATION ABOUT INFO")
+    print("1 --- INFORMATION ABOUT LOOP")
     print("2 --- RUN THE CODE ")
     tachyon =input("Enter Your Choice")
 
@@ -346,7 +346,7 @@ def listrun():
 def choice7(listrun,listinfo):
     os.system('cls')
     print("What do you wanna know")
-    print("1 --- INFORMATION ABOUT INFO")
+    print("1 --- INFORMATION ABOUT LIST")
     print("2 --- RUN THE CODE ")
     tachyon =input("Enter Your Choice")
 
@@ -431,7 +431,7 @@ def whilerun():
 def choice8(whileinfo,whilerun):
     os.system('cls')
     print("What do you wanna know")
-    print("1 --- INFORMATION ABOUT INFO")
+    print("1 --- INFORMATION ABOUT WHILE TRUE")
     print("2 --- RUN THE CODE ")
     tachyon =input("Enter Your Choice")
 
@@ -509,7 +509,7 @@ def dictionaryrun():
 def choice9(dictionaryinfo,dictionaryrun):
     os.system('cls')
     print("What do you wanna know")
-    print("1 --- INFORMATION ABOUT INFO")
+    print("1 --- INFORMATION ABOUT DICTIONARIES")
     print("2 --- RUN THE CODE ")
     tachyon =input("Enter Your Choice")
 
@@ -576,7 +576,7 @@ def functioninfo():
 def choice10(functionrun,functioninfo):
     os.system('cls')
     print("What do you wanna know")
-    print("1 --- INFORMATION ABOUT INFO")
+    print("1 --- INFORMATION ABOUT DEF, FUNCTION")
     print("2 --- RUN THE CODE ")
     tachyon =input("Enter Your Choice")
 
@@ -637,7 +637,7 @@ def Forlooprun():
 def choice11(Forloopinfo,Forlooprun):
     os.system('cls')
     print("What do you wanna know")
-    print("1 --- INFORMATION ABOUT INFO")
+    print("1 --- INFORMATION ABOUT FORLOOP")
     print("2 --- RUN THE CODE ")
     tachyon =input("Enter Your Choice")
 
@@ -694,7 +694,7 @@ def nestedforlooprun():
 def choice12(nestedforloopinfo,nestedforlooprun):
     os.system('cls')
     print("What do you wanna know")
-    print("1 --- INFORMATION ABOUT INFO")
+    print("1 --- INFORMATION ABOUT NESTED FOR LOOP")
     print("2 --- RUN THE CODE ")
     tachyon =input("Enter Your Choice")
 
