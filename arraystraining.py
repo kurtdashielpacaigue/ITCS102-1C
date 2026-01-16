@@ -10,6 +10,6 @@ genshin_characters = [
     "Nahida", "Nilou", "Cyno", "Alhaitham", "Dehya",
     "Furina", "Neuvillette", "Lyney", "Lynette", "Wriothesley"
 ]
-hoyo=random.randint(0,38)
+hoyo=random.randint(0,37)
 print(f'this is the number of your character:{hoyo}')
 print("Your Character is:"+genshin_characters[hoyo])
